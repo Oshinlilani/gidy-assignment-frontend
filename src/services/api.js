@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://gidy-assignment-backend.onrender.com"
+  baseURL: "https://gidy-assignment-backend.onrender.com/api",
 });
 
 export const getProfile = () => API.get("/profile");
